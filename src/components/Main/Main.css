@@ -1,6 +1,7 @@
 .main-container{
     display: grid;
-    grid-template-columns: 3fr 1fr;
+    grid-template-columns: 3fr 2fr;
+    gap: 15px;
 }
 .info-container{
     border-bottom: 1px solid rgba(17, 17, 17, 0.1);

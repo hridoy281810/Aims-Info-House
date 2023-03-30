@@ -10,7 +10,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-right: 122px;
+    /* margin-right: 122px; */
 }
 .read-time p{
     font-family: 'Exo 2';
