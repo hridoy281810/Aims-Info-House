@@ -1,0 +1,40 @@
+.information{
+    
+}
+.information img{
+    width: 845px;
+    height: 450px;
+    border-radius: 8px;
+}
+.read-time{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.read-time p{
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color: rgba(17, 17, 17, 0.6);
+}
+.author{
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+.author-info h3{
+font-family: 'Exo 2';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+color: #111111;
+margin-bottom: 0;
+}
+.author-info p{
+font-family: 'Exo 2';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+color: rgba(17, 17, 17, 0.6);
+}
