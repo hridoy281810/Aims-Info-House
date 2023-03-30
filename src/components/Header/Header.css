@@ -1,0 +1,17 @@
+.header{
+    height: 64px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+margin-top: 50px;
+margin-bottom: 32px;
+
+}
+.nav-title h1{
+font-family: 'Exo 2';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+color: #111111;
+}

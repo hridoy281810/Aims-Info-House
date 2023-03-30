@@ -1,0 +1,34 @@
+[
+    {
+      "id": 1,
+      "coverImg": "https://img.freepik.com/free-vector/laptop-with-program-code-isometric-icon-software-development-programming-applications-dark-neon_39422-971.jpg?w=900&t=st=1680189746~exp=1680190346~hmac=5fe6b863352dddd10a55fa642252974e3a4efa3bbdf70e88b37a7bad088b241a",
+      "authorProfile": "https://img.freepik.com/free-photo/handsome-confident-smiling-man-with-hands-crossed-chest_176420-18743.jpg?w=1060&t=st=1680190104~exp=1680190704~hmac=0746a7a0d57c00532f2ed432df8ee8f60fb96ad500fc2a1aa14cb006dbbf049a",
+      "name": "Mr. Raju",
+      "publishedDate": "Mar 14 (4 Days ago)",
+      "title": "How to get your first job as a self-taught programmer"
+    },
+    {
+      "id": 2,
+      "coverImg": "https://img.freepik.com/free-vector/web-development-programmer-engineering-coding-website-augmented-reality-interface-screens-developer-project-engineer-programming-software-application-design-cartoon-illustration_107791-3863.jpg?w=1060&t=st=1680190156~exp=1680190756~hmac=e5d9a0237e9270adf8da6c97888892f211985106c6d5753c884ae122dbfa9ef0",
+      "authorProfile": "https://img.freepik.com/free-photo/confident-bearded-macho-man-looks-pleased-has-friendly-kind-grin-face-wears-round-spectacles-pink-jumper_273609-51174.jpg?w=1060&t=st=1680189541~exp=1680190141~hmac=bcb103eaf207805aa0000661825eae66aaad1c3b4dadfbb4cd632d41ca23e345",
+      "name": "Mrs. Setara",
+      "publishedDate": "Mar 14 (4 Days ago)",
+      "title": "How to get your first job as a self-taught programmer"
+    },
+    {
+      "id": 3,
+      "coverImg": "https://img.freepik.com/free-photo/turned-gray-laptop-computer_400718-47.jpg?w=1060&t=st=1680190236~exp=1680190836~hmac=4e1c1208386fc28f4d9183daef673fd28b69f5df606a956285ece85a580fe0f3",
+      "authorProfile": "https://img.freepik.com/free-photo/waist-up-portrait-handsome-serious-unshaven-male-keeps-hands-together-dressed-dark-blue-shirt-has-talk-with-interlocutor-stands-against-white-wall-self-confident-man-freelancer_273609-16320.jpg?w=1060&t=st=1680190293~exp=1680190893~hmac=bf785feb16529438387489307ef3a84a87d1bfb23d2203c4593228858c79de51",
+      "name": "Mina Mostofa",
+      "publishedDate": "Mar 14 (4 Days ago)",
+      "title": "How to get your first job as a self-taught programmer"
+    },
+    {
+      "id": 4,
+      "coverImg": "https://img.freepik.com/free-vector/digital-coding-background-with-numbers-zero-one_1017-30363.jpg?w=1380&t=st=1680190474~exp=1680191074~hmac=aabdb9cf12fa077594fbf08be8be20cde165ba0bc157213d6515eb634035e2c7",
+      "authorProfile": "https://img.freepik.com/free-photo/mand-holding-cup_1258-340.jpg?w=1060&t=st=1680190355~exp=1680190955~hmac=0d5ae89ef3bc1746443285884498a5733b1b5a28d14f688c45f0db1f57826d31",
+      "name": "Mohammad Anisur Rahman",
+      "publishedDate": "Mar 14 (4 Days ago)",
+      "title": "How to get your first job as a self-taught programmer"
+    }
+  ]
