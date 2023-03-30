@@ -1,5 +1,5 @@
 .information{
-    
+    margin-bottom: 40px;
 }
 .information img{
     width: 845px;
@@ -10,6 +10,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-right: 122px;
 }
 .read-time p{
     font-family: 'Exo 2';
@@ -22,6 +23,11 @@
     display: flex;
     gap: 24px;
     align-items: center;
+}
+.author img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
 }
 .author-info h3{
 font-family: 'Exo 2';
@@ -37,4 +43,33 @@ font-style: normal;
 font-weight: 600;
 font-size: 16px;
 color: rgba(17, 17, 17, 0.6);
+}
+.title{
+    width: 
+    737px;
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    color: #111111;
+}
+span{
+    font-family: 'Exo 2';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+color: rgba(17, 17, 17, 0.6);
+}
+.beginners{
+    margin-right: 15px;
+}
+a{
+font-family: 'Exo 2';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+text-decoration-line: underline;
+color: #6047EC;
+margin-top: 20px;
+
 }

@@ -1,21 +1,27 @@
 import React from 'react';
 import './Information.css';
-import chek from '../../img/anis.jpg'
 
-const Information = () => {
+const Information = ({info,handleReadTime}) => {
+    const {coverImg,authorProfile,name,publishedDate,readTime,title} = info;
     return (
         <div className='information'>
-            <img src={chek} alt="" />
+            <img src={coverImg} alt="" />
            <div className="read-time">
            <div className="author">
-                <h1>sfdh;ias;hfd</h1>
+               <img src={authorProfile} alt="" />
                 <div className="author-info">
-                    <h3>mohammad anis</h3>
-                    <p>Mar 14 (4 Days ago)</p>
+                    <h3>{name}</h3>
+                    <p> {publishedDate} </p>
                 </div>
             </div>
-            <p>12 min read</p>
+            <p>{readTime} min read</p>
            </div>
+           <h1 className='title'> {title} </h1>
+           <div>
+           <span className='beginners'>#beginners</span> 
+           <span> #programming</span>
+           </div>
+        <a onClick={()=> handleReadTime(readTime)} >Mark as read</a>
         </div>
     );
 };
