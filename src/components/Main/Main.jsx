@@ -1,7 +1,11 @@
 import React, { useEffect, useState } from 'react';
 import Cart from '../Cart/Cart';
 import Information from '../Information/Information';
-import './Main.css'
+import './Main.css';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
+
 const Main = () => {
 
     const [information,setInformation] = useState([])
@@ -36,10 +40,7 @@ const Main = () => {
   const addedToCart = (food) => {
     const getCart = carts.find(cart => cart.id === food.id);
     if (getCart) {
-       alert({
-            title: "Already exists !!!",
-            icon: "warning",
-        });
+      toast("You have already attached this information, please attach another one!!!")
         return;
     }
 
@@ -79,6 +80,7 @@ const Main = () => {
        </div>            
         </div>
       </div>
+      <ToastContainer></ToastContainer>
         </div>
     );
 };

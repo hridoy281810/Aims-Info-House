@@ -1,11 +1,11 @@
 import React from 'react';
 import './Information.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBookmark } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBookmark } from '@fortawesome/free-solid-svg-icons';
 
 const Information = ({info,handleReadTime,addedToCart}) => {
     const {coverImg,authorProfile,name,publishedDate,readTime,title} = info;
-    
+
     return (
         <div className='information'>
             <img src={coverImg} alt="" />
