@@ -17,7 +17,7 @@ const Information = ({info,handleReadTime,addedToCart}) => {
                     <p> {publishedDate} </p>
                 </div>
             </div>
-            <p className='p'>{readTime} min read  <FontAwesomeIcon onClick={()=>addedToCart(info)} className='icon'  icon={faBookmark} /></p>
+            <p>{readTime} min read  <FontAwesomeIcon onClick={()=>addedToCart(info)} className='icon'  icon={faBookmark} /></p>
            </div>
            <h1 className='title'> {title} </h1>
            <div>
