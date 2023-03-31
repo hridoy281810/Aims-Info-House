@@ -3,14 +3,13 @@
     grid-template-columns: 3fr 2fr;
     gap: 15px;
 }
-.info-container{
-    border-bottom: 1px solid rgba(17, 17, 17, 0.1);
+.cart{
+    position: sticky;
+    top: 10px;
+}
+.info-container{  
     margin: 40px 0;
 }
-
-
-
-
 .cart{
     margin: 40px 0;
 }
@@ -21,9 +20,7 @@ border-radius: 8px;
 padding: 21px 50px ;
 margin-bottom: 24px;
 }
-.spent-time p{
-    font-family: 'Exo 2';
-font-style: normal;
+.spent-time p{   
 font-weight: 700;
 font-size: 24px;
 color: #6047EC;
@@ -34,12 +31,17 @@ border-radius: 8px;
 padding: 30px;
 margin-bottom: 16px;
 }
-.add-cart h1{
-    font-family: 'Exo 2';
-font-style: normal;
+.add-cart h1{    
 font-weight: 700;
 font-size: 24px;
 color: #111111;
+}
+
+.question{
+    background: rgba(17, 17, 17, 0.05);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
 }
 
 /* responsive start  */
@@ -47,7 +49,7 @@ color: #111111;
     .main-container{
         display: flex;
          flex-direction: column;
-        gap: 15px;
+        gap: 10px;
     }
    
 }

@@ -1,5 +1,6 @@
 .information{
     margin-bottom: 40px;
+    border-bottom:1px solid rgba(17, 17, 17, 0.1);;
 }
 .information img{
     width: 845px;
@@ -29,16 +30,14 @@
     border-radius: 50%;
 }
 .author-info h3{
-font-family: 'Exo 2';
-font-style: normal;
+ 
 font-weight: 700;
 font-size: 24px;
 color: #111111;
 margin-bottom: 0;
 }
 .author-info p{
-font-family: 'Exo 2';
-font-style: normal;
+ 
 font-weight: 600;
 font-size: 16px;
 color: rgba(17, 17, 17, 0.6);
@@ -53,8 +52,7 @@ color: rgba(17, 17, 17, 0.6);
     color: #111111;
 }
 span{
-    font-family: 'Exo 2';
-font-style: normal;
+     
 font-weight: 500;
 font-size: 20px;
 color: rgba(17, 17, 17, 0.6);
@@ -63,14 +61,20 @@ color: rgba(17, 17, 17, 0.6);
     margin-right: 15px;
 }
 a{
-font-family: 'Exo 2';
-font-style: normal;
 font-weight: 600;
 font-size: 20px;
 text-decoration-line: underline;
 color: #6047EC;
 margin-top: 20px;
+cursor: pointer;
 
+}
+.icon{
+    cursor: pointer;
+}
+.icon:hover {
+
+   color: #6047EC;
 }
 /* responsive start  */
 @media screen and (max-width:576px) {
