@@ -1,33 +1,4 @@
-.cart{
-    margin: 40px 0;
-}
-.spent-time{
-    background: rgba(96, 71, 236, 0.1);
-border: 1px solid #6047EC;
-border-radius: 8px;
-padding: 21px 50px ;
-margin-bottom: 24px;
-}
-.spent-time p{
-    font-family: 'Exo 2';
-font-style: normal;
-font-weight: 700;
-font-size: 24px;
-color: #6047EC;
-}
-.add-cart{
-    background: rgba(17, 17, 17, 0.05);
-border-radius: 8px;
-padding: 30px;
-margin-bottom: 16px;
-}
-.add-cart h1{
-    font-family: 'Exo 2';
-font-style: normal;
-font-weight: 700;
-font-size: 24px;
-color: #111111;
-}
+
 .add-cart-title{
     padding: 20px;
     background: #FFFFFF;
