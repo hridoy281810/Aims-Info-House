@@ -22,8 +22,7 @@ const Information = ({info,handleReadTime,addedToCart}) => {
            <h1 className='title'> {title} </h1>
            <div>
            <span className='beginners'>#beginners</span> 
-           <span> #programming</span>
-           <span> #programming</span>
+           <span> #programming</span> 
            </div>
         <a onClick={()=> handleReadTime(readTime)}>Mark as read</a>
         </div>
