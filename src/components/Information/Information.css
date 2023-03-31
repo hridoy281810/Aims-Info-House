@@ -10,7 +10,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* margin-right: 122px; */
 }
 .read-time p{
     font-family: 'Exo 2';
@@ -72,4 +71,34 @@ text-decoration-line: underline;
 color: #6047EC;
 margin-top: 20px;
 
+}
+/* responsive start  */
+@media screen and (max-width:576px) {
+    .information{
+        padding: 10px;
+    }
+    .information img{
+        width: 300px;
+        height: auto;
+    }
+    .title{
+        width: 300px;
+        font-weight: 500;
+        font-size: 20px;
+        color: #111111;
+    }
+    .author img{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        margin-top: 10px;
+    }
+    .author{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .read-time{
+      padding: 15px;
+    }
 }
